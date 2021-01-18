@@ -7,7 +7,7 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Container(
-      color: Colors.amber,
+      color: Color(0xffe4eaed),
       child: Column(
         //mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -22,10 +22,9 @@ class Body extends StatelessWidget {
                   child: Column(
                     //mainAxisAlignment: MainAxisAlignment.start,
                     children: <Widget>[
-                      //Meal(),
                       Meal(),
-                      Meal(), Meal(),
-
+                      Meal(),
+                      Meal(),
                       Meal(),
                     ],
                   ),

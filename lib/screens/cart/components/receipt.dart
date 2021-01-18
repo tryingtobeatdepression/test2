@@ -113,7 +113,9 @@ class Receipt extends StatelessWidget {
               ),
             ),
             color: Colors.yellow,
-            shape: null, // use shape in here .
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(5),
+            ),
           ),
         ],
       ),
